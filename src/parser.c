@@ -304,5 +304,5 @@ PHP_METHOD(GumboParser, load) {
     int ret;
     xmlDocPtr doc = gumbo_parse_string(html);
 
-    DOM_RET_OBJ((xmlNodePtr) newdoc, &ret, NULL);
+    DOM_RET_OBJ((xmlNodePtr) doc, &ret, NULL);
 }
