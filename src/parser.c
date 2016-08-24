@@ -301,14 +301,8 @@ PHP_METHOD(GumboParser, load) {
 
     // Parsing document and return DOMDocument
 
-    dom_object *intern;
+    int ret;
     xmlDocPtr doc = gumbo_parse_string(html);
 
-    #if PHP_MAJOR_VERSION < 7
-        int ret;
-
-        php_dom_create_object((xmlNodePtr)doc, &ret, return_value, intern TSRMLS_CC);
-    #else
-        php_dom_create_object((xmlNodePtr)doc, return_value, intern);
-    #endif
+    DOM_RET_OBJ((xmlNodePtr) newdoc, &ret, NULL);
 }
