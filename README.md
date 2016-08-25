@@ -55,7 +55,7 @@ $ composer test
 
 | [![SORGE][img-sorge]][link-sorge]               |
 |:-----------------------------------------------:|
-| [**SORGE**](link-sorge) - website tracking tool |
+| [**SORGE**][link-sorge] - website tracking tool |
 
 ## License
 
