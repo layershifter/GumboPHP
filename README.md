@@ -51,6 +51,12 @@ $ composer install
 $ composer test
 ```
 
+## Sponsors
+
+| [![SORGE][img-sorge]][link-sorge]               |
+|:-----------------------------------------------:|
+| [**SORGE**](link-sorge) - website tracking tool |
+
 ## License
 
 This library is released under the Apache 2.0 license. Please see [License File](LICENSE.md) for more information.
@@ -58,5 +64,6 @@ This library is released under the Apache 2.0 license. Please see [License File]
 [ico-license]: https://img.shields.io/badge/license-Apache2-brightgreen.svg?style=flat-square
 [ico-travis]: https://img.shields.io/travis/layershifter/TLDExtract/master.svg?style=flat-square
 [ico-php7ready]: http://php7ready.timesplinter.ch/layershifter/TLDExtract/master/badge.svg
-
+[img-sorge]: http://sorge-docs.qdrops.lclients.ru/others/dce4d2dd228406d9376cad60a6c4edb2.png
 [link-travis]: https://travis-ci.org/layershifter/gumbo-php
+[link-sorge]: http://sorge.pro/eng
